@@ -22,7 +22,7 @@ jobs:
 
 
     - name: Install XORG
-      run: sudo apt install xorg
+      run: sudo apt install xorg libx11-dev
       
     - name: Build
       run: go build -v ./...
